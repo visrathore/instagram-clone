@@ -1,0 +1,48 @@
+/* https://instagram-clone-sagar.web.app */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: #fafafa;
+  height: 100%;
+}
+
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 12px;
+  object-fit: contain;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerImage2 {
+  width: 150px;
+  object-fit: contain;
+}
+
+.app__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__form-button {
+  width: 60% !important;
+  margin: 20px auto !important;
+}
+
+.posts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.posts__right {
+  margin-top: 25px;
+}
